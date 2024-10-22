@@ -9,7 +9,6 @@ A simple and intuitive personal expense tracker built using Node.js, Express.js,
 - View all transactions
 - Edit existing transactions
 - Delete transactions
-- View summary of income, expenses, and balance
 
 ## Table of Contents
 
@@ -27,7 +26,7 @@ To get started with this project, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/expense-tracker.git
+    git clone https://github.com/bsalmagithub/expense-tracker.git
     ```
 
 2. **Navigate into the project directory**:
@@ -81,7 +80,7 @@ curl http://localhost:3001/transactions
 | GET    | `/transactions/:id`           | Retrieve a specific transaction by ID|
 | PUT    | `/transactions/:id`           | Update a transaction by ID           |
 | DELETE | `/transactions/:id`           | Delete a transaction by ID           |
-| GET    | `/transactions/summary`       | Retrieve summary of transactions     |
+
 
 ### Sample JSON for POST and PUT
 
@@ -106,7 +105,7 @@ This project uses an SQLite database to store transaction data. The table struct
 | `category`  | TEXT        | Category of the transaction     |
 | `amount`    | REAL        | Transaction amount              |
 | `date`      | TEXT        | Date of the transaction (YYYY-MM-DD) |
-| `description` | TEXT      | (Optional) Description of the transaction |
+| `description` | TEXT      | Description of the transaction |
 
 ## Technologies Used
 
