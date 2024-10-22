@@ -17,6 +17,7 @@ A simple and intuitive personal expense tracker built using Node.js, Express.js,
 - [API Endpoints](#api-endpoints)
 - [Database Structure](#database-structure)
 - [Technologies Used](#technologies-used)
+- [Testing API](#testing-api)
 - [License](#license)
 
 ## Installation
@@ -112,6 +113,23 @@ This project uses an SQLite database to store transaction data. The table struct
 - **Express.js**: Web framework for Node.js
 - **SQLite**: Lightweight relational database for storing transaction data
 - **Nodemon**: Tool to restart the server automatically when file changes are detected
+
+## Testing API
+
+**POST Call (/transactions) Add a new transaction**
+![image](https://github.com/user-attachments/assets/9ce629a1-a2cc-4da8-b70f-a7aa5236be3c)
+
+**GET Call (/transactions) Retrieve all transactions**
+![image](https://github.com/user-attachments/assets/eb339b07-b48d-4204-b0c1-aa3f51fad557)
+
+**GET Call (/transactions/:id) Retrieve a specific transaction by ID**
+![image](https://github.com/user-attachments/assets/0a113add-2e9b-4611-9413-e716ab617567)
+
+**PUT Call (/transactions/:id) Update a transaction by ID**
+![image](https://github.com/user-attachments/assets/367db82d-2294-4fdc-b5bb-bd34fd7a3e02)
+
+**DELETE Call (/transactions/:id) Delete a transaction by ID**
+![image](https://github.com/user-attachments/assets/7b4f32d2-eb57-4e51-9ec7-2b9284aec8d4)
 
 
 ## License
