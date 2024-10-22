@@ -17,7 +17,6 @@ A simple and intuitive personal expense tracker built using Node.js, Express.js,
 - [API Endpoints](#api-endpoints)
 - [Database Structure](#database-structure)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Installation
@@ -114,15 +113,6 @@ This project uses an SQLite database to store transaction data. The table struct
 - **SQLite**: Lightweight relational database for storing transaction data
 - **Nodemon**: Tool to restart the server automatically when file changes are detected
 
-## Contributing
-
-Contributions are welcome! Here's how you can get involved:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/YourFeature`).
-3. Make your changes and commit them (`git commit -m 'Add your feature'`).
-4. Push the branch (`git push origin feature/YourFeature`).
-5. Open a pull request.
 
 ## License
 
